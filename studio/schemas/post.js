@@ -98,6 +98,15 @@ export default {
             "validation": null
         },
         {
+            "title": "Tags",
+            "name": "tags",
+            "type": "array",
+            "of": [{"type": "string"}],
+            "options": {
+              "layout": "tags"
+            }
+        },
+        {
             "type": "string",
             "name": "stackbit_model_type",
             "title": "Stackbit Model Type",
