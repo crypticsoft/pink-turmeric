@@ -98,13 +98,15 @@ export default {
             "validation": null
         },
         {
-            "title": "Tags",
-            "name": "tags",
             "type": "array",
+            "name": "tags",
+            "title": "Tags",
+            "description": "Post tags",
             "of": [{"type": "string"}],
             "options": {
               "layout": "tags"
-            }
+            },
+            "validation": null
         },
         {
             "type": "string",
